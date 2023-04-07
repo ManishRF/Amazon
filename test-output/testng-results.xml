@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="26" passed="10" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-07T11:54:21 EDT" name="Suite" finished-at="2023-04-07T11:56:11 EDT" duration-ms="109989">
+    <groups>
+    </groups>
+    <test started-at="2023-04-07T11:54:21 EDT" name="Test" finished-at="2023-04-07T11:56:11 EDT" duration-ms="109989">
+      <class name="com.Amazon.Testcases.CreateAccountPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:18 EDT" name="setup" finished-at="2023-04-07T11:55:21 EDT" duration-ms="2765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmailOrPhoneNo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:21 EDT" name="verifyEmailOrPhoneNo" data-provider="verifyEmailorPhoneNoData" finished-at="2023-04-07T11:55:22 EDT" duration-ms="1348" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jerry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.Amazon.Testcases.CreateAccountPageTest.verifyEmailOrPhoneNo(CreateAccountPageTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailOrPhoneNo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:22 EDT" name="tearDown" finished-at="2023-04-07T11:55:23 EDT" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:23 EDT" name="setup" finished-at="2023-04-07T11:55:26 EDT" duration-ms="2620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmailOrPhoneNo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:26 EDT" name="verifyEmailOrPhoneNo" data-provider="verifyEmailorPhoneNoData" finished-at="2023-04-07T11:55:27 EDT" duration-ms="1424" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[642800000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.Amazon.Testcases.CreateAccountPageTest.verifyEmailOrPhoneNo(CreateAccountPageTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailOrPhoneNo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:27 EDT" name="tearDown" finished-at="2023-04-07T11:55:28 EDT" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:28 EDT" name="setup" finished-at="2023-04-07T11:55:31 EDT" duration-ms="2830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPhoneNumberBtn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:31 EDT" name="verifyPhoneNumberBtn" data-provider="verifyEmailorPhoneNoData" finished-at="2023-04-07T11:55:43 EDT" duration-ms="11656" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jerry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //span[@class='phone-text']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d83b0795-501b-4490-b664-b8bd104c65bf, findElement {using=xpath, value=//span[@class='phone-text']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:19678, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11208, moz:profile: C:\Users\MANISH\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19678/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d83b0795-501b-4490-b664-b8bd104c65bf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[@class='phone-text']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d83b0795-501b-4490-b664-b8bd104c65bf, findElement {using=xpath, value=//span[@class='phone-text']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:19678, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11208, moz:profile: C:\Users\MANISH\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19678/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d83b0795-501b-4490-b664-b8bd104c65bf
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at com.Amazon.Testcases.CreateAccountPageTest.verifyPhoneNumberBtn(CreateAccountPageTest.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhoneNumberBtn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:43 EDT" name="tearDown" finished-at="2023-04-07T11:55:43 EDT" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:43 EDT" name="setup" finished-at="2023-04-07T11:55:46 EDT" duration-ms="2875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPhoneNumberBtn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:46 EDT" name="verifyPhoneNumberBtn" data-provider="verifyEmailorPhoneNoData" finished-at="2023-04-07T11:55:48 EDT" duration-ms="1491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[642800000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhoneNumberBtn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:48 EDT" name="tearDown" finished-at="2023-04-07T11:55:48 EDT" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:48 EDT" name="setup" finished-at="2023-04-07T11:55:51 EDT" duration-ms="2623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyYourNameField(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:51 EDT" name="verifyYourNameField" data-provider="verifyNameFieldData" finished-at="2023-04-07T11:55:53 EDT" duration-ms="1563" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bachu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.Amazon.Testcases.CreateAccountPageTest.verifyYourNameField(CreateAccountPageTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYourNameField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:53 EDT" name="tearDown" finished-at="2023-04-07T11:55:53 EDT" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:53 EDT" name="setup" finished-at="2023-04-07T11:55:56 EDT" duration-ms="2635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyYourNameField(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:56 EDT" name="verifyYourNameField" data-provider="verifyNameFieldData" finished-at="2023-04-07T11:55:57 EDT" duration-ms="1428" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.Amazon.Testcases.CreateAccountPageTest.verifyYourNameField(CreateAccountPageTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYourNameField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:57 EDT" name="tearDown" finished-at="2023-04-07T11:55:58 EDT" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:55:58 EDT" name="setup" finished-at="2023-04-07T11:56:00 EDT" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifymessageReturningCustomer()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:56:00 EDT" name="verifymessageReturningCustomer" finished-at="2023-04-07T11:56:10 EDT" duration-ms="10025" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[@id='nav-link-accountList']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [06bf3d52-a64f-4896-8588-5c58209d8b04, findElement {using=xpath, value=//a[@id='nav-link-accountList']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:46933, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31904, moz:profile: C:\Users\MANISH\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:46933/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 06bf3d52-a64f-4896-8588-5c58209d8b04]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@id='nav-link-accountList']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [06bf3d52-a64f-4896-8588-5c58209d8b04, findElement {using=xpath, value=//a[@id='nav-link-accountList']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:46933, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31904, moz:profile: C:\Users\MANISH\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:46933/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 06bf3d52-a64f-4896-8588-5c58209d8b04
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+at com.Amazon.PageObject.FrontPage.clickOnAccount(FrontPage.java:34)
+at com.Amazon.Testcases.CreateAccountPageTest.verifymessageReturningCustomer(CreateAccountPageTest.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymessageReturningCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.CreateAccountPageTest@689604d9]" started-at="2023-04-07T11:56:10 EDT" name="tearDown" finished-at="2023-04-07T11:56:11 EDT" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Amazon.Testcases.CreateAccountPageTest -->
+      <class name="com.Amazon.Testcases.SignInTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.SignInTest@2a3b5b47]" started-at="2023-04-07T11:54:50 EDT" name="setup" finished-at="2023-04-07T11:54:52 EDT" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyGreetingMessaage()[pri:0, instance:com.Amazon.Testcases.SignInTest@2a3b5b47]" started-at="2023-04-07T11:54:52 EDT" name="verifyGreetingMessaage" finished-at="2023-04-07T11:54:55 EDT" duration-ms="2360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGreetingMessaage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.SignInTest@2a3b5b47]" started-at="2023-04-07T11:54:55 EDT" name="tearDown" finished-at="2023-04-07T11:54:55 EDT" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.SignInTest@2a3b5b47]" started-at="2023-04-07T11:54:55 EDT" name="setup" finished-at="2023-04-07T11:54:58 EDT" duration-ms="2751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignInModule()[pri:0, instance:com.Amazon.Testcases.SignInTest@2a3b5b47]" started-at="2023-04-07T11:54:58 EDT" name="verifySignInModule" finished-at="2023-04-07T11:55:00 EDT" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInModule -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.SignInTest@2a3b5b47]" started-at="2023-04-07T11:55:00 EDT" name="tearDown" finished-at="2023-04-07T11:55:01 EDT" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Amazon.Testcases.SignInTest -->
+      <class name="com.Amazon.Testcases.YourAddressPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.YourAddressPageTest@351d00c0]" started-at="2023-04-07T11:54:43 EDT" name="setup" finished-at="2023-04-07T11:54:46 EDT" duration-ms="2804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addAddressNavigationVerification()[pri:0, instance:com.Amazon.Testcases.YourAddressPageTest@351d00c0]" started-at="2023-04-07T11:54:46 EDT" name="addAddressNavigationVerification" finished-at="2023-04-07T11:54:49 EDT" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddressNavigationVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.YourAddressPageTest@351d00c0]" started-at="2023-04-07T11:54:49 EDT" name="tearDown" finished-at="2023-04-07T11:54:50 EDT" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Amazon.Testcases.YourAddressPageTest -->
+      <class name="com.Amazon.Testcases.YourOrderTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:54:21 EDT" name="loadConfig" finished-at="2023-04-07T11:54:21 EDT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:54:21 EDT" name="setup" finished-at="2023-04-07T11:54:25 EDT" duration-ms="3602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBuyAgainOption()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:54:25 EDT" name="verifyBuyAgainOption" finished-at="2023-04-07T11:54:28 EDT" duration-ms="2988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyAgainOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:54:28 EDT" name="tearDown" finished-at="2023-04-07T11:54:28 EDT" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:54:28 EDT" name="setup" finished-at="2023-04-07T11:54:31 EDT" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCancelledOrdersOption()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:54:31 EDT" name="verifyCancelledOrdersOption" finished-at="2023-04-07T11:54:34 EDT" duration-ms="3513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelledOrdersOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:54:34 EDT" name="tearDown" finished-at="2023-04-07T11:54:35 EDT" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:54:35 EDT" name="setup" finished-at="2023-04-07T11:54:39 EDT" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNotYetShippedOption()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:54:39 EDT" name="verifyNotYetShippedOption" finished-at="2023-04-07T11:54:43 EDT" duration-ms="4070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNotYetShippedOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:54:43 EDT" name="tearDown" finished-at="2023-04-07T11:54:43 EDT" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.Amazon.Testcases.YourOrderTest@6aeb35e6]" started-at="2023-04-07T11:56:11 EDT" name="afterSuite" finished-at="2023-04-07T11:56:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.Amazon.Testcases.YourOrderTest -->
+      <class name="com.Amazon.Testcases.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.CartTest@35d019a3]" started-at="2023-04-07T11:55:09 EDT" name="setup" finished-at="2023-04-07T11:55:12 EDT" duration-ms="2880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="priceTest()[pri:0, instance:com.Amazon.Testcases.CartTest@35d019a3]" started-at="2023-04-07T11:55:12 EDT" name="priceTest" finished-at="2023-04-07T11:55:17 EDT" duration-ms="5243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.CartTest@35d019a3]" started-at="2023-04-07T11:55:17 EDT" name="tearDown" finished-at="2023-04-07T11:55:18 EDT" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Amazon.Testcases.CartTest -->
+      <class name="com.Amazon.Testcases.FrontPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.FrontPageTest@55b699ef]" started-at="2023-04-07T11:55:01 EDT" name="setup" finished-at="2023-04-07T11:55:04 EDT" duration-ms="2720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProduct()[pri:0, instance:com.Amazon.Testcases.FrontPageTest@55b699ef]" started-at="2023-04-07T11:55:04 EDT" name="searchProduct" finished-at="2023-04-07T11:55:05 EDT" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.FrontPageTest@55b699ef]" started-at="2023-04-07T11:55:05 EDT" name="tearDown" finished-at="2023-04-07T11:55:05 EDT" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Amazon.Testcases.FrontPageTest@55b699ef]" started-at="2023-04-07T11:55:05 EDT" name="setup" finished-at="2023-04-07T11:55:08 EDT" duration-ms="2637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchField()[pri:0, instance:com.Amazon.Testcases.FrontPageTest@55b699ef]" started-at="2023-04-07T11:55:08 EDT" name="verifySearchField" finished-at="2023-04-07T11:55:08 EDT" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Amazon.Testcases.FrontPageTest@55b699ef]" started-at="2023-04-07T11:55:08 EDT" name="tearDown" finished-at="2023-04-07T11:55:09 EDT" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Amazon.Testcases.FrontPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
